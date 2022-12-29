@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url("/images/ice.JPG");
+    background-image: url("../images/ice.JPG");
     background-size: cover;
     background-blend-mode: lighten;
     background: linear-gradient(2deg, black 0%);
@@ -195,7 +195,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url(/images/_07P1124.JPG);
+    background-image: url(../images/_07P1124.JPG);
     background-position: 0% 70%;
     margin-bottom: 5px;
     width: 100%;
@@ -244,7 +244,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url(/images/good.jpg);
+    background-image: url(../images/good.jpg);
     /*background-size: 970px;*/
     margin-bottom: 5px;
     width: 100%;
@@ -323,7 +323,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url(/images/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png);
+    background-image: url(../images/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png);
     background-repeat: no-repeat;
     background-position: 0% 70%;
     margin-bottom: 5px;
@@ -373,7 +373,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url(/images/PHONE_BOOK_1.JPG_1530183.jpg.webp);
+    background-image: url(../images/PHONE_BOOK_1.JPG_1530183.jpg.webp);
     background-size: 970px;
     margin-bottom: 5px;
     width: 100%;
