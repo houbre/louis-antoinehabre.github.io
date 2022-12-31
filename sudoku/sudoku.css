@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body {
+    background-image: url("./sudoku_img/stone2.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+    background: linear-gradient(2deg, black 0%);
+}
+
+.navbar {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {       
+    display : flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+
+}
+
+.navbar__links {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    height: 100%;
+}
+
+.navbar__logo{
+    background-color: black;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar__links:hover {
+    text-decoration: underline;
+}
+
+
+.sudoku__rep {
+    padding-top: 70px;
+    font-size: 1.3rem;
+    list-style: none;
+    text-align: center;
+}
+
+
+/* description section */
+
+.description__main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+.description__container {
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.description__content {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.description__content h1 {
+    padding-bottom: 50px;
+}
+
+.description__content p.a {
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.description__content p.b {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+
+.sudoku__main {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+.sudoku__container {
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px 50px;
+}
+
+.sudoku__content {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sudoku__content p.c {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.sudoku__content p.d {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.sudoku__problems img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 40px;
+}
+
+.sudoku__content p.e {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.sudoku__content p.f {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.problem1 {
+    float: left;
+    width: 40%;
+}
+
+.solution1 {
+    width: 40%;
+    float: right;
+}
+
+.sudoku__problem1 {
+    padding-bottom: 400px;
+    object-fit: contain;
+    max-width: 700px;
+}
+
+.sudoku__problem1 p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.problem2 {
+    float: left;
+    width: 40%;
+}
+
+.solution2 {
+    width: 40%;
+    float: right;
+}
+
+.sudoku__problem2 {
+    padding-bottom: 400px;
+    object-fit: contain;
+    max-width: 700px;
+}
+
+.sudoku__problem2 p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.sudoku__content p.g {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+@media all and (max-width: 650px) {
+    .sudoku__problem1 {
+        padding-bottom: 170px;
+    }
+
+    .sudoku__problem2 {
+        padding-bottom: 190px;
+    }
+}
+
+
+
+
+
