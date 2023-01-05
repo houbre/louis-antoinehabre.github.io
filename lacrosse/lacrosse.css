@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body {
+    background-image: url("./lacrosse_img/lax3.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {       
+    display : flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+
+}
+
+.navbar__links {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    height: 100%;
+}
+
+.navbar__logo{
+    background-color: black;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar__links:hover {
+    text-decoration: underline;
+}
+
+.lacrosse__main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+.lacrosse__container {
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    padding: 1rem;
+    margin-left: 35%;
+    justify-content: center;
+    padding: 50px 50px;
+}
