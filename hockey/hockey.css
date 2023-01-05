@@ -99,6 +99,7 @@ video {
 
 h1 {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .description__main {
@@ -197,6 +198,10 @@ img {
         justify-content: center;
         padding: 50px 50px;
     }
+}
+
+.vid_link {
+    font-size: 1.5rem;
 }
 
 
