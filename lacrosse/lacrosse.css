@@ -9,6 +9,7 @@
 body {
     background-image: url("./lacrosse_img/lax3.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
